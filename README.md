@@ -1,6 +1,6 @@
 # Facility Management System
 
-The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities. This tool is a modified version of the one which was created as a project for DRDO Cabs during an internship. With four distinct roles, users can manage bookings, approvals, cancellations, and generate reports based on their permissions and responsibilities.
+The Facility Management System is a comprehensive management solution developed using the PERN (Postgresql, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities. This tool is a modified version of the one which was created as a project for DRDO Cabs during an internship. With four distinct roles, users can manage bookings, approvals, cancellations, and generate reports based on their permissions and responsibilities.
 
 ## Table of Contents
 
@@ -54,9 +54,7 @@ Admin Manage Facilities Page
 Admin Manage Bookings Page
 ![Admin Manage Bookings Page Screenshot](readme_assets/Picture10.png)
 
-## Demo
 
-This project cannot be deployed as it requires a backend server to set cookie which is blocked by services offering hosting unless you are using a paid domain. However, you can follow the steps below to run the application on your local machine.
 
 ## Features
 
@@ -189,7 +187,7 @@ Be sure to replace `*YOUR POSTGRES DATABASE URL*` with your actual postgress dat
 to your local machine:
 
 ```bash
-git clone https://github.com/Shivam-Sharma-1/Facility-Management-System.git
+git clone https://github.com/lionking0105/Facility-Management-System.git
 ```
 
 2. Change to the project directory:
@@ -264,10 +262,7 @@ The client-side application will run on `http://localhost:3000`, and the server-
 | Group Director (GD)   | 635110     | password |
 | Facility Manager (FM) | 395003     | password |
 
-## Author
 
-- [@Shivam-Sharma-1](https://github.com/Shivam-Sharma-1) [Frontend]
-- [@Vector-ops](https://github.com/Vector-ops) [Backend]
 
 ## Documentation
 
